@@ -1,0 +1,264 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'verdana';
+}
+
+
+.text{
+    
+    justify-content: center;
+    background-color: #e0aa3e;
+    z-index: 999;
+    opacity: 50%;
+    align-items: center;
+    display: flex;
+    
+
+    
+    
+}
+
+.text ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+   
+}
+
+.text ul li a{
+    color: black;
+    text-decoration: none;
+    margin-right: 60px ;
+    font-size: 15px;
+    font: 900;
+    text-transform: uppercase;
+    
+    
+}
+
+.text ul li a:hover{
+    font-size: 25px;
+    color: #e0aa3e;
+    background-color: black;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+
+}
+
+.text .logo{
+    display: flex;
+    width: 10%;
+    margin-left: 25px;
+    color: #e0aa3e;
+}
+
+.text .logo:hover{
+    width: 15%;
+}
+
+section{
+    padding: 10px 200px;
+}
+
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url('Photos/BG.jpeg') no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.main h2{
+    color: #ffffff;
+    font-size: 20px
+}
+
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color: #e0aa3e;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.main h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.main-button{
+    color: #e0aa3e;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    transition: 0.7s ease;
+}
+.main-button:hover{
+    color: black;
+    background-color: #e0aa3e;
+    border-radius: 15px;
+    transform: scale(1.1);
+}
+
+.social-icons a { 
+    color: #e0aa3e;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    color: #000; 
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.contant{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 15px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease;
+    margin-bottom: 100px;
+
+}
+
+.card:hover{
+    transform: scale(1.1);
+}
+
+.icon {
+    color: #ffdea0;
+    font-size: 130px;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects{ 
+    background: url(photos/BG.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.projects .contant{
+    margin-top: 30px;
+
+}
+
+.projects-card{ 
+    background-color: #fff;
+    border: 1px sold #fff;
+    min-height: 30px;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+    
+}
+.projects-card:hover{
+    transform: scale(1.1);
+}
+
+.projects-card:hover{
+    opacity: 0.9;
+}
+
+.projects-img img{
+    width: 100%;
+}
+
+.projects-info{ 
+    padding: 16px;
+}
+.projects-categry {
+    font-size: 20px;
+    color: #000;
+}
+
+.projects-title{ 
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+
+.more-details{ 
+    text-decoration: none;
+    color: black;
+}
+
+.more-details:hover{
+    color: #f5b744;
+}
+
+.contact .icon{
+    font-size: 100;
+}
+
+.contact .info h2{
+    color: #000;
+}
+
+.contact .info p{
+    font-size: 20px;
+}
+
+.footer{
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-title span{
+    color: #f5b744;
+}
+
+.footer .social-icons {
+    font-size: 20px;
+    padding: 0 12 0 0;
+}
